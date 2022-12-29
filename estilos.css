@@ -1,0 +1,301 @@
+body {
+  background-color: #e5e5e5;
+  font-family: "Roboto";
+}
+.barra-de-topo {
+  background-color: #ffffff;
+  border-bottom: 1px solid #dbdbdb;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.barra-de-topo,
+.barra-de-topo-conteudo {
+  height: 54px;
+}
+
+.barra-de-topo-conteudo {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 935px;
+  margin: 0 auto;
+}
+.barra-de-topo-conteudo img {
+  width: 103px;
+  height: 29px;
+  margin-top: 10px;
+}
+.barra-de-topo-conteudo div:first-child,
+.barra-de-topo-conteudo div:last-child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.barra-de-topo-conteudo ion-icon {
+  margin-right: 24.81px;
+  width: 17.87px;
+  height: 17.87px;
+}
+.logo ion-icon {
+  width: 21px;
+  height: 21px;
+  top: 4.58px;
+  left: 6.19px;
+  margin-right: 0px;
+}
+.barra-vertical {
+  width: 1px;
+  height: 22px;
+  top: 15px;
+  left: 247px;
+  background-color: #dbdbdb;
+  margin-left: 11.38px;
+  margin-right: 10px;
+}
+.barra-de-busca {
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+  width: 215px;
+  height: 28px;
+  font-family: "Roboto";
+  font-weight: 400px;
+  font-size: 12px;
+  line-height: 14.06px;
+  color: #979797;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.barra-de-topo-mobile {
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  height: 54px;
+  left: 0;
+  right: 0;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: none;
+}
+.barra-de-topo-mobile img {
+  width: 103px;
+  height: 29px;
+}
+.corpo-da-pagina {
+  margin-top: 54px;
+  width: 935px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 54px;
+  display: flex;
+}
+.caixa-de-stories {
+  background-color: #ffffff;
+  width: 614px;
+  height: 118px;
+  margin-top: 40px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  padding-left: 18px;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+}
+.story {
+  position: relative;
+  margin-right: 15px;
+}
+.img-de-fundo {
+  width: 56px;
+  height: 56px;
+}
+.img-story {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 3px;
+  left: 3px;
+}
+.nome {
+  font-family: "Roboto";
+  font-size: 12px;
+  color: #262626;
+  text-align: center;
+}
+.setinha {
+  font-size: 26px;
+  position: absolute;
+  z-index: 1;
+  top: 50px;
+  left: 590px;
+  color: grey;
+}
+.feed-de-imagens {
+  display: flex;
+  flex-direction: column;
+}
+.caixa-de-imagem {
+  background-color: #ffffff;
+  width: 614px;
+  height: 749px;
+  margin-top: 25px;
+  left: 215px;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+}
+.imagem img {
+  width: 612px;
+  height: 612px;
+}
+.barra-superior,
+.icones-inferiores,
+.curtidas {
+  display: flex;
+  align-items: center;
+}
+.barra-superior {
+  padding-left: 17px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  position: relative;
+}
+.barra-superior img {
+  width: 32px;
+  height: 32px;
+}
+.barra-superior p {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 500px;
+}
+.barra-superior ion-icon {
+  position: absolute;
+  right: 29.5px;
+}
+.icones-inferiores ion-icon {
+  position: absolute;
+}
+.icones-inferiores {
+  position: relative;
+  margin: 15px 10px;
+}
+.icones-inferiores ion-icon:nth-child(1) {
+  left: 0px;
+}
+.icones-inferiores ion-icon:nth-child(2) {
+  left: 30px;
+}
+.icones-inferiores ion-icon:nth-child(3) {
+  left: 60px;
+}
+.icones-inferiores ion-icon:nth-child(4) {
+  right: 0px;
+}
+.curtidas p {
+  margin-left: 5px;
+}
+.curtidas img {
+  width: 20px;
+  height: 20px;
+  margin-left: 15px;
+}
+strong {
+  font-weight: bold;
+  color: black;
+}
+.side-bar {
+  width: 293px;
+}
+.topo,
+.sugestoes,
+.lista-sugestoes {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+.topo p,
+.sugestoes p,
+.lista-sugestoes p {
+  margin-left: 17px;
+  color: #8e8e8e;
+}
+.lista-sugestoes a {
+  margin-left: 10px;
+}
+.texto-complementar p {
+  margin-top: 30px;
+  margin-left: 10px;
+  color: #c7c7c7;
+  font-size: 11px;
+}
+.barra-inferior {
+  background-color: #ffffff;
+  border: 1px solid #dbdbdb;
+  height: 54px;
+  padding-left: 15px;
+  padding-right: 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: none;
+}
+.barra-inferior ion-icon:first-child {
+  color: black;
+}
+@media (max-width: 935px) {
+  .side-bar {
+    display: none;
+  }
+  .corpo-da-pagina {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .barra-de-topo-conteudo {
+    width: 100%;
+  }
+  .conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 614px) {
+  .barra-de-topo {
+    display: none;
+  }
+  .barra-de-topo-mobile {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .caixa-de-stories {
+    margin-top: 0px;
+    background-color: #e5e5e5;
+    border: none;
+  }
+  .caixa-de-stories,
+  .conteudo-principal,
+  .feed-de-imagens,
+  .caixa-de-imagem,
+  .imagem img {
+    width: 100%;
+  }
+  .setinha {
+    display: none;
+  }
+  .barra-inferior {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
